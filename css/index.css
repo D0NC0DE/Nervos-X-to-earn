@@ -8,24 +8,32 @@ body {
     background-color: #34140C;
 }
 
-h1 {
-    color:blue;
+h1, h3, h6 {
+    color: #fff;
 }
 
-h1.cearn {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#homewrite, svg.arrow-down {
+    color: #FE9A24;
+}
+
+h6 {
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 59px;
-    letter-spacing: 0.095em;
-
-    color: #FE9A24;
+    line-height: 120%;
+/* or 38px */
+    text-align: center;
+    text-transform: uppercase;
 }
 
 svg.user {
     width: 40px;
     height: 40px;
+    background-color: #FAE7D6;
+    border: solid 0px;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 svg.arrow-down {
