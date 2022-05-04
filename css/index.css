@@ -1,6 +1,7 @@
 /* Font size and style*/
 
 body {
+    font-size: 100%; 
     background-image: url("../img/write.png"), url("../img/Vector.png");
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed;
@@ -28,7 +29,7 @@ main div h3 {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 6.902vw;
     line-height: 120%;
     text-align: center;
 }
@@ -68,4 +69,3 @@ main h6 {
     padding: 3px 20px;
     margin: 0px, auto;
 }
-
