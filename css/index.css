@@ -8,7 +8,7 @@ body {
     background-color: #34140C;
 }
 
-h1, h3, h6 {
+h3, h6 {
     color: #fff;
 }
 
@@ -20,7 +20,11 @@ h6 {
     line-height: 120%;
 }
 
-main div h1 {
+main {
+    text-align: center;
+}
+
+main div h3 {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -46,3 +50,22 @@ svg.arrow-down {
     width: 45px;
     height: 45px;
 }
+
+.columns {
+    border: opx solid;
+    padding: 10px;
+}
+
+.column {
+    border: opx solid;
+    padding: 10px;
+}
+
+main h6 {
+    display: inline-block;
+    border: 2px solid #FE9A24;
+    border-radius: 18px;
+    padding: 3px 20px;
+    margin: 0px, auto;
+}
+
