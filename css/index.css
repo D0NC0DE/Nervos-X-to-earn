@@ -69,3 +69,25 @@ main h6 {
     padding: 3px 20px;
     margin: 0px, auto;
 }
+
+header div img {
+    width: 12.801vw;
+    position: absolute;
+    left: 2.025vw;
+    top: 2.025vw;
+}
+
+.connect {
+    display: inline-block;
+    position: absolute;
+    top: 1.329vm;
+    right: 2.152vw;
+}
+
+header div h3, .user {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
