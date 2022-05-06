@@ -27,6 +27,7 @@ main {
 }
 
 main div h3 {
+    margin-top: 30.55vh;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -61,7 +62,7 @@ svg.arrow-down {
 
 .column {
     border: opx solid;
-    padding: 10px;
+    padding: 2px;
 }
 
 main h6 {
