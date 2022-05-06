@@ -14,6 +14,11 @@ h3, h6 {
     color: #fff;
 }
 
+hr {
+    color: #FE9A24;
+    width: ;
+}
+
 h6 {
     font-family: 'Arial';
     font-style: normal;
@@ -51,13 +56,14 @@ svg.user {
 }
 
 svg.arrow-down {
-    width: 45px;
-    height: 45px;
+    margin-top: 10vh;
+    height: 60px;
 }
 
 .columns {
     border: opx solid;
     padding: 10px;
+    
 }
 
 .column {
@@ -69,9 +75,9 @@ main h6 {
     font-size: 24px;
     display: inline-block;
     border: 2px solid #FE9A24;
-    border-radius: 18px;
-    padding: 3px 20px;
-    margin: 0px, auto;
+    border-radius: 12px;
+    padding: 4px 20px;
+    margin: 5.7vh, auto;
 }
 
 header div img {
