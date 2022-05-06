@@ -15,8 +15,8 @@ h3, h6 {
 }
 
 hr {
-    color: #FE9A24;
-    width: ;
+    border: 2px solid #FE9A24;
+    width: 25%;
 }
 
 h6 {
