@@ -81,11 +81,19 @@ main h6 {
     margin: 5.7vh, auto;
 }
 
+main h6:hover {
+    background-color: #FE9A24;
+}
+
 header div img {
     width: 100px;
     position: absolute;
     left: 2.025vw;
     top: 2.025vw;
+}
+
+header div img:hover {
+    width: 110px;
 }
 
 header div h3, .user {
@@ -104,6 +112,10 @@ header div h3 {
     float: left;
     
     font-size: 12px;
+}
+
+header div h3:hover {
+    background-color: #FE9A24;
 }
 
 .connect {
