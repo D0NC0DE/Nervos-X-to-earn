@@ -1,0 +1,64 @@
+/* Genereal properties*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%; 
+    background-image: url("../img/write.png"), url("../img/Vector.png");
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #34140C;
+}
+
+h3 {
+    color: #fff;
+}
+
+/* general display properties*/
+header div h3, .logo, .connect, .user {
+    display: inline-block;
+}
+
+/*header properties*/
+header div img {
+    width: 100px;
+    position: absolute;
+    left: 2.025vw;
+    top: 2.025vw;
+}
+
+header div img:hover {
+    width: 110px;
+}
+
+header div h3 {
+    border: 2px solid #FE9A24;
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin-top: 0px;
+    float: left;
+    
+    font-size: 12px;
+}
+
+header div h3:hover {
+    background-color: #FE9A24;
+}
+
+.connect {
+    min-width: 160px;
+    position: absolute;
+    right: 2.025vw;
+    top: 2.025vw;
+}
+
+svg.user {
+    width: 25px;
+    height: 25px;
+    background-color: #FAE7D6;
+    border: solid 0px;
+    border-radius: 25%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
