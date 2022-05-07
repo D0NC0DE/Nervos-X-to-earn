@@ -62,3 +62,70 @@ svg.user {
     margin-top: 0px;
 }
 
+/*nav settings*/
+nav ul li a.active {
+    color: white;
+    background-color: #FE9A24;
+    border-bottom: 2px solid #FAE7D6;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:link {
+    color: white;
+    padding: 5px 25px;
+    border-radius: 12px;
+}
+
+nav ul li a:visited {
+    color: white;
+    padding: 5px 25px;
+}
+
+nav ul li a:hover:not(.active), a:active {
+    color: white;
+    border-bottom: 2px solid #FE9A24;
+}
+
+
+ nav ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 2px;
+}
+@media screen and (max-width:760px) {
+    nav {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav ul li {
+       font-size: 4vw;
+    }
+    
+    nav ul li a:link {
+        padding: 1vw 5vw;
+        border-radius: 12px;
+    }
+    
+    nav ul li a:visited {
+        padding: 1vw 5vw;
+    }
+}
