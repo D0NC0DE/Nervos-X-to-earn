@@ -107,7 +107,7 @@ nav ul {
 nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 2px;
+    top: 8px;
 }
 @media screen and (max-width:760px) {
     nav {
