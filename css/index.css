@@ -63,13 +63,19 @@ svg.arrow-down {
 
 .columns {
     border: opx solid;
-    padding: 10px;
-    
+    padding: 20px, 0px, 10px;  
+}
+
+@media screen and (max-width:760px) {
+    .column {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .column {
     border: opx solid;
-    padding: 2px;
+    padding: 10px;
 }
 
 main h6 {
