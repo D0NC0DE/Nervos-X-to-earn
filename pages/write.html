@@ -7,12 +7,12 @@
         <link href="../css/pages.css" rel="stylesheet">
 
         <!--favicon-->
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
-        <link rel="icon" type="image/png" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
-        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="../favicon_io/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="../favicon_io/android-chrome-512x512.png">
+        <link rel="manifest" href="../favicon_io/site.webmanifest">
 
         <!--Insert any other link stuffs here-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,6 +24,13 @@
         <meta name="description" content="Defend the truth, Fight for Data and Internet freedom and Earn for doing that">
         <meta name="author" content="Winner(Don)">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Web3.js LIBRARY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.1/web3.min.js"
+            integrity="sha512-GKw4QT/RccGJIwQxY3MhyiQ5pHrhQ8SuKFEafV+WcpOvtz7iYFQuQGFCvmGlHLctJTe8KrWU1FqvF7VOkEAJtw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        </script>
    
     </head>
 
@@ -34,7 +41,8 @@
             </div>
 
             <div class="connect"> 
-                <a href=""> <h3>CONNECT</h3></a>
+                <button class="connectwallet">CONNECT</button>
+                <button class="connected">OX... <span class="mywallet"></span></button>
                 <a href=""><svg class="user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                     <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
                     <path d="M610.5 373.3c2.6-14.1 2.6-28.5 
@@ -65,6 +73,9 @@
                 <li><a href="data.html">Data</a></li>
             </ul> 
         </nav>
+
+        <!--Script-->
+        <script src="../js/index.js"></script>
 
     </body>
 </html>

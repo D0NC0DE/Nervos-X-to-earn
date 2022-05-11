@@ -14,7 +14,7 @@ h3 {
 }
 
 /* general display properties*/
-header div h3, .logo, .connect, .user {
+header div button, .logo, .connect, .user {
     display: inline-block;
 }
 
@@ -30,7 +30,7 @@ header div img:hover {
     width: 110px;
 }
 
-header div h3 {
+header div button {
     border: 2px solid #FE9A24;
     border-radius: 12px;
     padding: 10px 16px;
@@ -40,9 +40,40 @@ header div h3 {
     font-size: 12px;
 }
 
-header div h3:hover {
+header div button:hover {
     background-color: #FE9A24;
 }
+
+.connectwallet {
+    display: block;
+}
+
+.connected{
+    display: none;
+}
+
+.connected .mywallet {
+    visibility: hidden;
+    background-color: #FE9A24;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 20%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 6px;
+}
+
+.connected:hover .mywallet {
+    visibility: visible;
+    opacity: 1;
+  }
+
 
 .connect {
     min-width: 160px;
@@ -55,7 +86,7 @@ svg.user {
     width: 25px;
     height: 25px;
     background-color: #FAE7D6;
-    border: solid 0px;
+    border: 2px solid #FE9A24;
     border-radius: 25%;
     padding: 5px;
     margin-left: 10px;
