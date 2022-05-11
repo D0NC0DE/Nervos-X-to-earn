@@ -16,7 +16,7 @@ h3, h6 {
 
 hr {
     border: 1px solid white;
-    
+    opacity: 0.2;
 }
 
 h6 {
