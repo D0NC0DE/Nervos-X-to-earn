@@ -89,6 +89,8 @@ const showUserDashboard = async () => {
   
     // show the user's wallet address
      showUserWalletAddress();
+
+     changeNetwork();
   
   };
 
@@ -98,3 +100,35 @@ const showUserWalletAddress = () => {
     walletAddressEl.innerHTML = window.userWalletAddress;
   };
   
+const changeNetwork = async() => {
+    if (window.userWalletAddress) {
+      try {
+        await window.ethereum
+        .request({
+          method: 'wallet_switchEthereumChain',
+          params: [{ chainId: '0x315DB00000006' }],
+        });
+      } catch (switchError) {
+        // This error code indicates that the chain has not been added to MetaMask.
+        if (switchError.code === 4902) {
+          try {
+            await window.ethereum
+            .request({
+              method: 'wallet_addEthereumChain',
+              params: [
+                {
+                  chainId: '0x315DB00000006',
+                  chainName: 'GodWoken',
+                  rpcUrls: ['https://godwoken-testnet-web3-v1-rpc.ckbapp.dev'] /* ... */,
+                  blockExplorerUrls: ['https://v1.aggron.gwscan.com/'],
+                },
+              ],
+            });
+          } catch (addError) {
+            // handle "add" error
+          }
+        }
+        // handle other "switch" errors
+      }
+    }
+  }
