@@ -1,3 +1,5 @@
+// script for wallet connect
+
 // 1. Create global userWalletAddress variable
 window.userWalletAddress = null;
 
