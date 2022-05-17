@@ -188,6 +188,7 @@ header {
     border-radius: 8px;
     font-size: 12px;
     background-color: #FAE7D6;
+    opacity: 0.4;
     background-image: url('../img/search.svg');
     background-position: 2px 2px; 
     background-repeat: no-repeat;
