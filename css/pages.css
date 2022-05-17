@@ -212,6 +212,7 @@ section {
     margin-bottom: 4px;
     box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.50);
     border-radius: 8px;
+    display: flex;
 }
 
 .blogbox img {
@@ -249,4 +250,8 @@ section {
 .countgroup {
     display: inline-block;
     margin: 0px 2px;
+}
+
+.blogbox h6 {
+    font-size: 16px;
 }
