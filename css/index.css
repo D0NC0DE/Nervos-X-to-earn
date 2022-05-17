@@ -111,6 +111,7 @@ header div button, .user {
 }
 
 header div button {
+    background-color: #FAE7D6;
     border: 2px solid #FE9A24;
     border-radius: 12px;
     padding: 10px 16px;
