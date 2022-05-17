@@ -7,6 +7,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #34140C;
+    color: white;
 }
 
 h3 {
@@ -136,11 +137,7 @@ nav ul {
     padding: 0;
 }
 
-nav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 8px;
-}
+
 @media screen and (max-width:760px) {
     nav {
         margin-top: 40px;
@@ -165,14 +162,13 @@ nav {
 /*main settings*/
 
 main {
-    max-width: 400px;
-    height: 1000px;
+    max-width: 600px;
     margin: 50px auto;
-    
 }
 
-header {
+.sort {
     margin: 10px;
+    padding: 60px 0px 5px;
 }
 
 #sort {
@@ -185,10 +181,9 @@ header {
     width: 130px;
     box-sizing: border-box;
     border: 1px solid #FE9A24;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 12px;
     background-color: #FAE7D6;
-    opacity: 0.4;
     background-image: url('../img/search.svg');
     background-position: 2px 2px; 
     background-repeat: no-repeat;
@@ -199,6 +194,31 @@ header {
 
 #search:focus{
     width: 80%;
+    opacity: 0.4;
 }
 
+section {
+    max-width: 600px;;
+    background-color:rgb(254, 154, 36, 0.2);
+    box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.25);
+    margin-top: 70px;
+    border-radius: 8px;
+    padding: 0%;
+}
+
+.blogbox {
+    background-color: #090000;
+    margin-bottom: 3px;
+    box-shadow: 0px 4px 20px rgba(116, 101, 101, 0.50);
+}
+
+.blogbox:hover {
+    box-shadow: 0px 4px 20px rgba(116, 101, 101, 1);
+}
+
+.blogbox img {
+    max-height: 100px;
+    max-width: 100px;
+    padding: 20px 20px;
+}
 
