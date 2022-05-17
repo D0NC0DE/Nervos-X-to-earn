@@ -187,7 +187,7 @@ main {
     background-image: url('../img/search.svg');
     background-position: 2px 2px; 
     background-repeat: no-repeat;
-    padding: 2px 20px 2px 40px;
+    padding: 4px 20px 4px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -228,3 +228,25 @@ section {
     right: 14px;
 }
 
+.interaction {
+    display: inline;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.interaction img {
+    padding: 0px;
+    margin: 0px;
+}
+
+#count {
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.countgroup {
+    display: inline-block;
+    margin: 0px 2px;
+}
