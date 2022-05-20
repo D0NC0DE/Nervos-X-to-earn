@@ -272,9 +272,9 @@ a:hover, a:active {
     max-height: 25px;
     margin: 0px;
     padding: 0px;
+    padding-right: 2px;
     vertical-align: middle;
     opacity: 0.7;
-    
 }
 
 #authorname {
@@ -283,3 +283,74 @@ a:hover, a:active {
     
     opacity: 0.3;
 }
+
+/*article setting*/
+article {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.25);
+    border-radius: 8px;
+}
+
+.arttime {
+    font-size: 12px;
+    opacity: 0.5;
+    position: absolute;
+    top: 8px;
+    right: 14px;
+}
+
+.artauthor {
+    padding: 12px;
+}
+
+.artauthor img {
+    max-width: 35px;
+    max-height: 35px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 2px;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+#artauthorname {
+    font-style: normal;
+    font-size: 16px;
+    
+    opacity: 0.5;
+}
+
+article h3 {
+    padding: 0px 50px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+article div {
+    padding: 0px 12px;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+.artpic {
+    width: 100%;
+}
+
+.artinteract {
+    display: flex;
+    justify-content: space-around;
+}
+
+.artbutton:hover {
+    background-color: #090909;
+    opacity: 1;
+}
+
+.artbutton img {
+    padding: 5px;
+    width: 14px;
+    height: 14px;
+    /*filter: brightness(0.2) sepia(1) hue-rotate(180deg) saturate(5);*/
+}
+
