@@ -199,7 +199,7 @@ main {
 
 section {
     max-width: 800px;;
-    background-color:rgb(254, 154, 36, 0.2);
+    background-color: transparent;
     box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.25);
     margin-top: 70px;
     border-radius: 8px;
@@ -208,9 +208,9 @@ section {
 
 .blogbox {
     position: relative;
-    background-color: #090000;
+    background: rgba(0, 0, 0, 0.5);
     margin-bottom: 4px;
-    box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.50);
+    box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.25);
     border-radius: 8px;
     display: flex;
 }
@@ -354,3 +354,14 @@ article div {
     /*filter: brightness(0.2) sepia(1) hue-rotate(180deg) saturate(5);*/
 }
 
+footer {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(116, 101, 101, 0.25);
+    border-radius: 8px;
+    color:#FE9A24;
+    font-size: smaller;
+    opacity: 0.2;
+    text-align: center;
+    overflow: hidden;
+}
