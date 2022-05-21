@@ -376,3 +376,43 @@ footer {
     margin-bottom: 30%;
 }
 
+.create img, .draft img {
+    vertical-align: middle;
+    padding: 26px;
+}
+
+div.write {
+    margin: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #34140C;
+    border-radius: 4px;
+    background: rgba(250, 231, 214, 0.2);
+    font-size: 16px;
+    resize: none;
+  }
+
+#submit {
+    float:right;
+    background-color: #FE9A24;
+    color: white;
+    border: 2px solid #34140C;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px;
+    opacity: 0.7;
+}
+
+#textarea{
+    margin-bottom: 30%;
+    margin-top: 20%;
+}
+
+textarea:active, textarea:hover {
+    border: 2px #FE9A24 solid;
+}
