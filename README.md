@@ -1,14 +1,14 @@
 # Nervos-X-to-earn
 
-I have been a victim of internet privacy infringement, denial of true data, Data enslavement, False news, censorship and thing you can think of.
-I this point in time, we need a platform where we can share any true information, where can access real data, and where we can share real work of Art.
+I have been a victim of internet privacy infringement, denial of true data, Data enslavement, False news, censorship and thing you can thinks of.
+In this point in time, we need a platform where we can share any true information, where can access real data, and where we can share real work of Art.
 We should also be able to earn something for doing that and punish defaulters. All on a decentralized network - NERVOS. 
 
 We created CEARN with the vision to create a platform better like twitter where anyone can share anything once it is legal, and not abuse right to fair data.
 We are building and hosting on a decentralized storage system and also open sourcing our code for everyone.
 
 DAPP TECHNICAL DETAILS
-> The first thing i will point out is that the DAPP is hosted on IPFS. https://ipfs.fleek.co/ipfs/QmTS6Lgk7ysSFDBBBNsNMn1sbMiUtXxfy4Fgfxa7LGSciZ/index.html
+> The first thing i will point out is that the DAPP is hosted on IPFS. https://ipfs.fleek.co/ipfs/QmTS6Lgk7ysSFDBBBNsNMn1sbMiUtXxfy4Fgfxa7LGSciZ/index.html (or http://nervos-x-to-earn.vercel.app/
 > We did not have enough time but the database and the backend of the DAPP will use the libp2p to store data and broadcast data just like the orbitdb
 > We are still working on getting the best Solution for the Audio Cspace.
 > Where possible with transaction gas in mind... data might be stored on the Nervos Network(a option we are considering)
