@@ -1,4 +1,20 @@
 ---
 label: blog
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 10
+  label: Title
+- name: write_something_here
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+    min: 200
+  label: Write Something here
